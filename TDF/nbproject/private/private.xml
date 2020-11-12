@@ -4,14 +4,10 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/D:/netbean/TDF/src/tdf/Block.java</file>
-            <file>file:/D:/netbean/TDF/src/tdf/Frame.java</file>
-            <file>file:/D:/netbean/TDF/src/tdf/Homepage.java</file>
-            <file>file:/D:/netbean/TDF/src/tdf/Map01.java</file>
+            <file>file:/D:/netbean/TDF/src/tdf/Mob.java</file>
             <file>file:/D:/netbean/TDF/src/tdf/Playstate.java</file>
-            <file>file:/D:/netbean/TDF/src/tdf/Map02.java</file>
+            <file>file:/D:/netbean/TDF/src/tdf/Bar.java</file>
             <file>file:/D:/netbean/TDF/src/tdf/Mainmenu.java</file>
-            <file>file:/D:/netbean/TDF/src/tdf/Select_Map.java</file>
-            <file>file:/D:/netbean/TDF/src/tdf/Select_Level.java</file>
         </group>
     </open-files>
 </project-private>

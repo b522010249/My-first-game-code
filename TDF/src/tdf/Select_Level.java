@@ -27,7 +27,7 @@ public class Select_Level extends JPanel implements MouseListener{
     
     Select_Level(){
         setLayout(null);
-        setBackground(Color.gray);
+        setBackground(Color.black);
         
         add(n);
         n.addMouseListener(this);

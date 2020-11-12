@@ -62,20 +62,33 @@ public class Mainmenu extends JFrame implements ActionListener{
             //select Level//
         else if(e.getSource()==sl.n){
             ps.lvl_map=1;
+            this.setSize(800,607);
             this.remove(sl);
             this.add(ps);
+            Playstate.size=60;
+            Playstate.killtowin=60;
+            Playstate.hp=100;
+            Playstate.money=50;
             ps.requestFocusInWindow();
         }
         else if(e.getSource()==sl.h){
             ps.lvl_map=2;
             this.remove(sl);
             this.add(ps);
+            Playstate.size=90;
+            Playstate.killtowin=90;            
+            Playstate.hp=50;
+            Playstate.money=45;            
             ps.requestFocusInWindow();
         }
         else if(e.getSource()==sl.l){
             ps.lvl_map=3;
             this.remove(sl);
             this.add(ps);
+            Playstate.size=120;
+            Playstate.killtowin=120;            
+            Playstate.hp=30;
+            Playstate.money=40;              
             ps.requestFocusInWindow();
         }
         else if(e.getSource()==sl.b){

@@ -26,7 +26,7 @@ public class Homepage extends JPanel implements ActionListener,MouseListener{
     
     Homepage(){
         setLayout(null);
-        setBackground(Color.gray);
+        setBackground(Color.white);
         add(start);
         start.addMouseListener(this);
         start.setBorderPainted(false);

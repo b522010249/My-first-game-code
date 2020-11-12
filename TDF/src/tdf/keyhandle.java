@@ -14,13 +14,16 @@ public class keyhandle implements MouseListener,MouseMotionListener{
 
     @Override
     public void mousePressed(MouseEvent me) {
-         Playstate.bar.click(me.getButton());
+         try{Playstate.bar.click(me.getButton());
+         
+         }catch(Exception e){}
          
     }
 
     @Override
     public void mouseReleased(MouseEvent me) {
-         Playstate.bar.released(me.getButton());
+         try{Playstate.bar.released(me.getButton());
+         }catch(Exception e){}
     }
 
     @Override
@@ -35,12 +38,14 @@ public class keyhandle implements MouseListener,MouseMotionListener{
 
     @Override
     public void mouseDragged(MouseEvent me) {
-        Playstate.mse=new Point(me.getX()-7,me.getY()-30); 
+        try{Playstate.mse=new Point(me.getX()-7,me.getY()-30);
+                }catch(Exception e){}
     }
 
     @Override
     public void mouseMoved(MouseEvent me) {
-        Playstate.mse=new Point(me.getX()-7,me.getY()-30); 
+        try{Playstate.mse=new Point(me.getX()-7,me.getY()-30); 
+                }catch(Exception e){}
     }
     
 }
